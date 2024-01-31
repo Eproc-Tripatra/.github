@@ -15,11 +15,12 @@
 7. Untuk format datetime, di tampilan, itu dihandle di BE / FE
    - [x] FE
    - [ ] BE
-8. Naming convention: ?
-9. Preview PDF/EXCEL/DOCS
+8. BE dan FE sepakat kalau bentukannya angka ya angka, kalau string ya string. 
+9. Nomor telepon bentukannya string.
+10. Preview PDF/EXCEL/DOCS
    - [x] FE
    - [ ] BE
-10. Export (PDF / Excel)
+11. Export (PDF / Excel)
    - [ ] FE
    - [x] BE
 11. Upload docs
@@ -31,4 +32,10 @@
 13. Error handling: konteks (bikin request ke BE dan mengembalikan error) bgaimana response ui-nya
    - [ ] FE
    - [x] BE
-14. Misal jika mengembalikan object, jika tidak ditemukan kembalikan null saja tanpa perlu response error / bad request  
+14. FE hanya menerima message berdasarkan BE saja, sisanya dihandle sesuai experience ui-nya. 
+15. Pastikan BE jika memang error, kembalikan response code juga error / bad request 400 >, 
+16. Jika request yang memerlukan data, namun response mengembalikan error, kembalikan datanya dalam bentuk array kosong / object kosong
+17. Handle data kosong tampilannya dihandle oleh:
+   - [x] FE
+   - [ ] BE
+18. 

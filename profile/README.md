@@ -38,4 +38,5 @@
 17. Handle data kosong tampilannya dihandle oleh:
    - [x] FE
    - [ ] BE
-18. 
+18. Jika ada perubahan silakan tambahkan perubahan
+

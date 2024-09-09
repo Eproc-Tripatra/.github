@@ -2,7 +2,7 @@
 
 ### Front End - Back End
 
-1. check nullabity serta undefined itu tanggung jawab keduanya.
+1. check nullabity serta undefined serta field validation itu tanggung jawab keduanya.
 2. menampilkan list item, jika bentuknya detail (hanya satu object):
    - [ ] tampilkan berupa object
    - [x] tampilkan berupa list/array/slice
